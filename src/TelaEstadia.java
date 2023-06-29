@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Date;
 
 public class TelaEstadia extends JFrame implements ActionListener {
-    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
+    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
     private JPanel header = new JPanel();
     private JPanel bottom = new JPanel();
     private JScrollPane scroll;
